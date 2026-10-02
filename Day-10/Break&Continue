@@ -1,0 +1,63 @@
+=================================break Statement============================
+
+public class Main
+{
+	public static void main(String[] args) {
+	    for(int i=1;i<=30;i++){
+	        if(i==20){
+	            break;
+	        }
+	        System.out.println(i);
+	    }
+	
+	}
+}
+
+====================using Continue Statements-Skip even numbers========================
+
+public class Main
+{
+	public static void main(String[] args) {
+	    for(int i=1;i<=30;i++){
+	        if(i%2==0){
+	            continue;
+	        }
+	        System.out.println(i);
+	    }
+	
+	}
+}
+
+
+=======================skip multiples of 3 by using continue====================
+
+ public class Main
+{
+	public static void main(String[] args) {
+	    for(int i=1;i<=10;i++){
+	        if(i%3==0){
+	            continue;
+	        }
+	        System.out.println(i);
+	    }
+	
+	}
+}
+
+==============stop at a number Divisible by 5 & 7 ==========================
+
+public class Main
+{
+	public static void main(String[] args) {
+	    for(int i=1;i<=100;i++){
+	        if(i%5==0 && i%7==0){
+	            break;
+	        }
+	        System.out.println(i);
+	    }
+	
+	}
+}
+
+
+
